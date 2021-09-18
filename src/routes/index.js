@@ -4,11 +4,9 @@ import Honor from "pages/Honor";
 
 function Routes() {
   return (
-    <div>
-      <BrowserRouter>
-        <Route exact path="/" component={Honor} />
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <Route exact path="/" component={Honor} />
+    </BrowserRouter>
   );
 }
 
